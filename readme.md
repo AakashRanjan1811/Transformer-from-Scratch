@@ -1,4 +1,4 @@
-# Assignment 1: Transformer from Scratch
+# Transformer from Scratch
 
 This project contains a from-scratch implementation of the Transformer model for Finnish-to-English machine translation.
 
