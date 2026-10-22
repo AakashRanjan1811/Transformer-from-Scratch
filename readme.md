@@ -9,7 +9,6 @@ This project contains a from-scratch implementation of the Transformer model for
 -   `decoder.py`: Implements the Decoder part of the Transformer.
 -   `train.py`: The main script for training the model. It handles data loading, training loops, validation, and saving checkpoints.
 -   `test.py`: A script to load a trained model and evaluate it on the test set using different decoding strategies.
--   `report.pdf`: The final report with analysis and observations.
 
 ## How to Run on Google Colab
 
