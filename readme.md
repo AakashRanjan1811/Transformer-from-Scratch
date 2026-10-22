@@ -34,7 +34,7 @@ Run the following cell in your Colab notebook to install the necessary libraries
 !python -m spacy download fi_core_news_sm
 ```
 
-3.  **Train the Model**: You can configure the training run by modifying the `config` dictionary in `train.py`. [cite_start]To switch between positional encodings, change the `pe_strategy` value to either `'rope'` or `'relative_bias'`[cite: 35].
+3.  **Train the Model**: You can configure the training run by modifying the `config` dictionary in `train.py`. [cite_start]To switch between positional encodings, change the `pe_strategy` value to either `'rope'` or `'relative_bias'`.
 
     Run the training script from a Colab cell:
     ```bash
@@ -42,7 +42,7 @@ Run the following cell in your Colab notebook to install the necessary libraries
     ```
     This will train the model, save `transformer_model.pt`, and plot the loss curves.
 
-4.  **Test the Model**: Use the `test.py` script to evaluate the saved model. [cite_start]You can switch between decoding strategies using a command-line argument[cite: 45].
+4.  **Test the Model**: Use the `test.py` script to evaluate the saved model. [cite_start]You can switch between decoding strategies using a command-line argument.
 
     Run the testing script for each strategy:
     ```bash
