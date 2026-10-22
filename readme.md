@@ -34,7 +34,7 @@ Run the following cell in your Colab notebook to install the necessary libraries
 !python -m spacy download fi_core_news_sm
 ```
 
-3.  **Train the Model**: You can configure the training run by modifying the `config` dictionary in `train.py`. [cite_start]To switch between positional encodings, change the `pe_strategy` value to either `'rope'` or `'relative_bias'`.
+3.  **Train the Model**: You can configure the training run by modifying the `config` dictionary in `train.py`.To switch between positional encodings, change the `pe_strategy` value to either `'rope'` or `'relative_bias'`.
 
     Run the training script from a Colab cell:
     ```bash
